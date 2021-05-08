@@ -42,7 +42,7 @@ header {
 }
 
 .nav {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   /* border-bottom: 1px solid #eef1f6; */
 }
 
@@ -93,7 +93,7 @@ header {
 .nav_logo {
   width: 100px;
   height: 80px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 #nav_checkbox:checked ~ ul.nav_menu li {
@@ -147,7 +147,7 @@ header {
 @media only screen and (min-width: 760px) {
   .content {
     margin: 100px 150px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
   }
 
   .content p:nth-of-type(1) {
