@@ -129,8 +129,6 @@ header {
 
 .content {
   /* background-color: rgba(255, 255, 255, 0.4); */
-  border-radius: 0.25em;
-
   text-align: center;
   margin: 100px 100px;
 }
@@ -153,6 +151,7 @@ header {
 @media only screen and (min-width: 760px) {
   .content {
     margin: 100px 150px;
+    border-radius: 0.25em;
     box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.25);
     /* border: 1px solid blue; */
   }
@@ -224,3 +223,4 @@ header {
     margin-top: 30px;
   }
 }
+
