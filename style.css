@@ -54,6 +54,12 @@ header {
   margin-top: 30px;
 }
 
+.nav_toggle i:hover {
+  font-size: 50px;
+  color: #43caef;
+  margin-top: 30px;
+}
+
 .nav_toggle .menu {
   margin-top: 0.2rem;
 }
@@ -85,10 +91,15 @@ header {
   font-size: 1.6rem;
 }
 
+.nav_menu a:hover {
+  color: #43caef;
+}
+
 .nav_logo {
   width: 100px;
   height: 80px;
   /* border: 1px solid red; */
+  pointer-events: none;
 }
 
 #nav_checkbox:checked ~ ul.nav_menu li {
@@ -119,7 +130,7 @@ header {
 .content {
   /* background-color: rgba(255, 255, 255, 0.4); */
   border-radius: 0.25em;
-  
+
   text-align: center;
   margin: 100px 100px;
 }
@@ -200,7 +211,7 @@ header {
   }
 
   .social i:hover {
-    color: #66cc33;
+    color: #43caef;
   }
 }
 
