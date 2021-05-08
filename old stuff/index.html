@@ -15,37 +15,47 @@
       type="text/css"
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+
     <title>Document</title>
   </head>
   <body>
     <header>
-      <nav class="nav">
-        <input type="checkbox" id="nav_checkbox" class="nav_checkbox" />
-        <label for="nav_checkbox" class="nav_toggle">
-          <i class="fa fa-bars" class="menu" aria-hidden="true"></i>
-        </label>
-        <ul class="nav_menu">
-          <li>
-            <a href="#">
-              <img
-                src="./images/pierlogo.png"
-                alt="Pier logo"
-                class="nav_logo"
-              />
-            </a>
-          </li>
+      <nav>
+        <button class="hamburger" id="hamburger">
+          <i class="fa fa-bars"></i>
+        </button>
+        <ul class="nav-ul" id="nav-ul">
+          <li class="logo"><a href="#">PIER</a></li>
           <li><a href="#">About</a></li>
-          <li><a href="#">Work</a></li>
+          <li><a href="#">Works</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
+
       <div class="bg"></div>
       <div class="bg bg2"></div>
       <div class="bg bg3"></div>
+
       <div class="content">
-        <p>Hello!</p>
-        <h1>I'm Pier,</h1>
-        <p>a future Web Developer</p>
+        <p>Hi,I'm Pier!!</p>
+        <p>
+          Welcome to my Portfolio. Lorem ipsum, dolor sit amet consectetur
+          adipisicing elit. Ratione, tenetur.
+        </p>
+      </div>
+      <div class="social">
+        <a href="http://www.github.com" target="_blank">
+          <i class="fa fa-github" aria-hidden="true"></i>
+        </a>
+        <a href="http://instagram.com" target="_blank">
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+        </a>
+        <a href="http://www.linkedin.com" target="_blank">
+          <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </a>
+        <a href="http://xing.com" target="_blank">
+          <i class="fa fa-xing" aria-hidden="true"></i>
+        </a>
       </div>
     </header>
     <main>
@@ -106,5 +116,7 @@
         mollitia pariatur eos? Repellat, fugit incidunt!
       </section>
     </main>
+
+    <script type="text/javascript" src="./script.js"></script>
   </body>
 </html>

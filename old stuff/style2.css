@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inconsolata", monospace;
+  }
+
+  header {
+    min-height: 100vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+
+  .bg {
+    animation: slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #66cc33 50%, #0099ff 50%);
+    bottom: 0;
+    left: -50%;
+    opacity: 0.5;
+    position: fixed;
+    right: -50%;
+    top: 0;
+    z-index: -1;
+  }
+  
+  .bg2 {
+    animation-direction: alternate-reverse;
+    animation-duration: 4s;
+  }
+  
+  .bg3 {
+    animation-duration: 5s;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(-25%);
+    }
+    100% {
+      transform: translateX(25%);
+    }
+  }
+
+  .genres {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: blue;
+    top: 0;
+    z-index: 1;
+    background-color: blanchedalmond;
+    
+  }
+
+  .genres li {
+    position: fixed;
+    background-color: blanchedalmond;
+  }
+  
+  
+  .genres p {
+    
+      margin: 15px 15px;
+      background-color: blanchedalmond;
+
+  }
+  
+  .container {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .aside {
+  position:fixed
+  }
+
+  .title {
+    display: flex;
+    /* flex-wrap: wrap; */
+  }
+  
+  .box {
+    margin: 100px 458px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .box p {
+    background-color: #1a1a1a;
+    color: white;
+    margin: 0px;
+    text-align: center;
+  }
+  
+  .aside {
+    background-color: white;
+  }
+  
+  .aside p {
+    padding: 10px 5px;
+  }
