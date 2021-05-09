@@ -224,3 +224,76 @@ header {
   }
 }
 
+.about {
+  width: 75%;
+  min-height: 400px;
+  background-color: rgba(80, 169, 199, 0.808);
+  border-radius: 20px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+}
+
+.about h2 {
+  /* width: 200%; */
+  color: #2a324b;
+  font-size: 2.3em;
+  text-decoration: overline;
+}
+
+.about p {
+  color: #2a324b;
+  font-size: 1.2em;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  margin: 0px 30px;
+}
+
+.about button {
+  width: 120px;
+  height: 40px;
+  color: #fafaff;
+  border-radius: 0.8em;
+  border: none;
+  font-size: 0.75em;
+  font-weight: bold;
+  background-color: #007cba;
+  margin-bottom: 3px;
+}
+
+.about button:hover {
+  color: #007cba;
+  background-color: rgba(250, 250, 255, 0.677);
+  font-size: 0.85em;
+  border: 1px solid #007cba;
+}
+
+@media only screen and (min-width: 560px) {
+  .about {
+    width: 80%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about h2 {
+    margin-left: 20px;
+    font-size: 3em;
+  }
+
+  .about p {
+    font-size: 1.7em;
+    font-weight: bold;
+    line-height: 1.5em;
+    margin: 70px 30px 30px 50px;
+  }
+
+  .about button {
+    width: 170px;
+    height: 60px;
+  }
+}
