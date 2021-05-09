@@ -83,6 +83,7 @@ header {
 .nav_menu li:first-child {
   margin-right: auto;
   display: block;
+  pointer-events: none;
 }
 
 .nav_menu a {
@@ -99,7 +100,7 @@ header {
   width: 100px;
   height: 80px;
   /* border: 1px solid red; */
-  pointer-events: none;
+  /* pointer-events: none; */
 }
 
 #nav_checkbox:checked ~ ul.nav_menu li {
