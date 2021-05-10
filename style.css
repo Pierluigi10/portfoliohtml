@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  min-height: 150vh;
+height: 130vh;
 }
 
 .bg {
@@ -418,12 +418,15 @@ footer p {
   border-bottom: 2px solid #737373;
 }
 
-/* .footer_social {
-  border:1px solid red;
+.footer_social ul {
   list-style: none;
   
+} 
+
+.footer_social a {
+  text-decoration: none;
   
-} */
+} 
 
 .footer_icons i {
   font-size: 2em;
