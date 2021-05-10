@@ -125,6 +125,7 @@ header {
 
   .nav_menu li a {
     font-size: 3rem;
+    margin-right: 100px;
   }
 }
 
@@ -417,17 +418,17 @@ footer p {
   border-bottom: 2px solid #737373;
 }
 
-.footer_icons {
+/* .footer_social {
+  border:1px solid red;
   list-style: none;
-}
-
-.footer_icons {
-  list-style: none;
-}
+  
+  
+} */
 
 .footer_icons i {
   font-size: 2em;
   color: #737373;
+  
 }
 
 .footer_icons i:hover {
