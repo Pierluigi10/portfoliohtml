@@ -236,6 +236,7 @@ header {
   margin-right: auto;
   margin-left: auto;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 .about h2 {
@@ -262,7 +263,7 @@ header {
   border: none;
   font-size: 0.75em;
   font-weight: bold;
-  background-color: #007cba;
+  background-color: #1260a0;
   margin-bottom: 3px;
 }
 
@@ -270,7 +271,7 @@ header {
   color: #007cba;
   background-color: rgba(250, 250, 255, 0.677);
   font-size: 0.85em;
-  border: 1px solid #007cba;
+  border: 1px solid #1260a0;
 }
 
 @media only screen and (min-width: 560px) {
@@ -296,5 +297,64 @@ header {
   .about button {
     width: 170px;
     height: 60px;
+  }
+}
+
+.works {
+  /* height: 100vh; */
+  background-color: #0099ff;
+}
+
+.work_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.work_container h2 {
+  color: #2a324b;
+  font-size: 2.3em;
+  text-decoration: overline;
+}
+
+.work_column {
+  width: 50%;
+  height: 350px;
+  margin: 20px;
+}
+
+.work_text {
+  text-align: center;
+  font-size: 2em;
+}
+
+.work-1 {
+  background-color: #1a4679;
+  color: #fafaff;
+}
+
+.work-2 {
+  background-color: white;
+}
+
+.work-3 {
+  background-color: #1260a0;
+}
+
+.work-4 {
+  background-color: #1a4679;
+  color: #fafaff;
+}
+
+@media only screen and (min-width: 560px) {
+  .work_container h2 {
+    font-size: 3em;
+    margin-left: 25px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .work_container {
+    flex-direction: row;
   }
 }
