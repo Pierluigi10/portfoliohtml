@@ -434,18 +434,23 @@ footer p {
   color: #737373;
 }
 
+.footer_icons a:visited {
+  color:inherit;
+}
+
 .footer_icons i:hover {
   /* background-color:#29aafe; */
-  color: red;
+  font-size: 2.2em;
+  text-shadow: 1px 1px 2px #e0e5ed;
 }
 
 /* .footer_icons a:visited {
   color:inherit;
 } */
 
-.footer_icons a:hover {
+/* .footer_icons a:hover {
   background-color: #29aafe;
-}
+} */
 
 @media only screen and (min-width: 560px) {
   footer {
