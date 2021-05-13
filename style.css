@@ -107,7 +107,7 @@ header {
   display: block;
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 958px) {
   .nav_toggle {
     display: none;
   }
@@ -398,6 +398,124 @@ header {
   }
 }
 
+.skills_section {
+  background-color: rgba(128, 128, 128, 0.555);
+  padding: 50px 0 100px 0;
+  font-weight: bold;
+  /* display: grid;
+  place-items: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 560px) {
+  .skills_section {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+
+.skills_section h2 {
+  color: #2a324b;
+  font-size: 2.3em;
+  text-decoration: overline;
+}
+
+.skills_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 2rem 50px;
+}
+
+@media only screen and (min-width: 560px) {
+  .skills_section h2 {
+    font-size: 3em;
+    margin-left: 55px;
+  }
+}
+
+@media only screen and (min-width: 1226px) {
+  .skills_container {
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 1.2rem;
+  }
+}
+
+.skills_box {
+  padding: 1rem;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.skills_box h3 {
+  color: #333;
+  font-size: 1.4em;
+  margin-top: 0.4em;
+}
+
+.skills_box:hover .skills_img {
+  transform: rotate(180deg);
+}
+
+.skills_icons {
+  width: 50px;
+  z-index: 2;
+}
+
+.skills_img {
+  width: 90px;
+  height: 90px;
+  position: relative;
+  border-radius: 45px;
+  background-color: #fafaff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.skills_img:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 90px;
+  background: rgba(100, 100, 100, 0.5);
+  border-radius: 45px 0 0 45px;
+}
+
+@media only screen and (min-width: 800px) {
+  .skills_img {
+    width: 180px;
+    height: 180px;
+    border-radius: 90px
+  }
+
+  .skills_img:after {
+       width: 50%;
+    height: 180px;
+    background: rgba(100, 100, 100, 0.5);
+    border-radius: 90px 0 0 90px;
+  }
+
+  .skills_icons {
+    width: 100px;
+  
+  }
+
+  .skills_box h3 {
+   font-size: 1.7em;
+   margin-top: 1em;
+  }
+ }
+
 footer {
   min-height: 80px;
   background-color: #26272b;
@@ -435,7 +553,7 @@ footer p {
 }
 
 .footer_icons a:visited {
-  color:inherit;
+  color: inherit;
 }
 
 .footer_icons i:hover {
