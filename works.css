@@ -1,0 +1,119 @@
+
+
+
+
+
+  .works {
+    min-height: 100vh;
+    background-color: #0099ff;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 30px 15px 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+  }
+
+  .projects h2 {
+    color: #2a324b;
+    font-size: 2.3em;
+    text-decoration: overline;
+  }
+
+  .project_conteiner {
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    
+  }
+  
+  .box {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: white;
+    
+  }
+
+ 
+  .box img {
+    width: 180px;
+    height: 150px;
+    background-color: white;
+    border-radius: 0.50em;
+    /* padding: 10px; */
+  }
+
+  .box h3 {
+    text-align: center;
+    font-size: 1.9em;
+  }
+  
+  .box p {
+    text-align: center;
+    font-size: 1.5em;
+  }
+  
+  .box a {
+    font-size: 1.5em;
+  }
+  
+  .box a:visited {
+    color: inherit;
+  }
+  
+  .box1 {
+    /* border: 1px solid red; */
+    background-color: #1a4679;
+    color: #fafaff;
+  }
+  
+  .box2 {
+    background-color: #fafaff;
+  }
+  
+  .box3 {
+    /* border: 1px solid red; */
+    background-color: #1260a0;
+  }
+  
+  .box4 {
+    /* border: 1px solid red; */
+    background-color: #1a4679;
+    color: #fafaff;
+  }
+  
+  @media only screen and (min-width: 560px) {
+    .box {
+      margin-left: 70px;
+    }
+  
+    .projects h2 {
+      font-size: 3em;
+      margin-left: 55px;
+    }
+  }
+  
+  @media only screen and (min-width: 1226px) {
+    /* .projects {
+        flex-direction: row;
+      }  */
+  
+    .box {
+      margin-left: 90px;
+    }
+  
+    .project_conteiner {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
