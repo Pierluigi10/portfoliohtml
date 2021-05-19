@@ -485,8 +485,9 @@ header {
 }
 
 .box a:visited {
-  color: inherit;
+  color: #c9c9da;
 }
+
 .box a:hover {
   color: #43caef;
 }
