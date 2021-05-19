@@ -484,13 +484,15 @@ header {
   padding: 20px;
 }
 
-.box a:visited {
-  color: #c9c9da;
-}
 
 .box a:hover {
   color: #43caef;
 }
+
+.box a:visited {
+  color: #c9c9da;
+}
+
 
 @media only screen and (min-width: 560px) {
   .box {
