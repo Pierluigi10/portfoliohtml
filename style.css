@@ -482,18 +482,16 @@ header {
   border-radius: 0.5em;
   border: 1px solid #c9c9da;
   padding: 20px;
-}
-
-
-.box a:visited {
-  color: #c9c9da;
-}
-
-.box a:hover {
   color: #43caef;
 }
 
+.box a:visited {
+  color: #43caef;
+}
 
+.box a:hover {
+  color: #c9c9da;
+}
 
 @media only screen and (min-width: 560px) {
   .box {
