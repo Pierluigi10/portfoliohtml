@@ -181,6 +181,7 @@ header {
   }
 }
 
+/* SOCIAL BAR */
 .social {
   position: fixed;
   top: 40%;
@@ -226,6 +227,7 @@ header {
   }
 }
 
+/* ABOUT */
 .about {
   width: 75%;
   min-height: 400px;
@@ -254,9 +256,10 @@ header {
   letter-spacing: 0.5px;
   text-align: center;
   margin: 0px 30px;
+  text-align: justify;
 }
 
-.about button {
+/* .about button {
   width: 120px;
   height: 40px;
   color: #fafaff;
@@ -273,7 +276,7 @@ header {
   background-color: rgba(250, 250, 255, 0.677);
   font-size: 0.85em;
   border: 1px solid #1260a0;
-}
+} */
 
 @media only screen and (min-width: 560px) {
   .about {
@@ -295,10 +298,10 @@ header {
     margin: 70px 30px 30px 50px;
   }
 
-  .about button {
+  /* .about button {
     width: 170px;
     height: 60px;
-  }
+  } */
 }
 
 /* SKILLS */
@@ -536,6 +539,7 @@ header {
   }
 }
 
+/* FOOTER */
 footer {
   min-height: 80px;
   background-color: #26272b;
