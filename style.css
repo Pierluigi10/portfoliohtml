@@ -6,16 +6,14 @@ body {
   font-weight: 800;
   color: #2a324b;
   background-color: #43caef;
-  height: 130vh;
+  height:100%;
+ 
 }
 
 header {
   height: 130vh;
 }
 
-.wrapper {
-  height: 130vh;
-}
 
 .bg {
   animation: slide 3s ease-in-out infinite alternate;
@@ -262,7 +260,7 @@ header {
   letter-spacing: 0.5px;
   text-align: center;
   margin: 0px 30px;
-  text-align: justify;
+  
 }
 
 /* .about button {
@@ -302,6 +300,7 @@ header {
     font-weight: bold;
     line-height: 1.5em;
     margin: 70px 30px 30px 50px;
+    text-align: justify;
   }
 
   /* .about button {
