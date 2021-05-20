@@ -6,7 +6,7 @@ body {
   font-weight: 800;
   color: #2a324b;
   background-color: #43caef57;
-  height:170vh;
+  height:100%;
  
 }
 
@@ -193,6 +193,7 @@ header {
   display: flex;
   flex-direction: column;
   /* margin: 10px; */
+  margin-top:100px
 }
 
 .social i {
