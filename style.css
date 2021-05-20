@@ -12,6 +12,10 @@ header {
   height: 130vh;
 }
 
+.wrapper {
+  height: 130vh;
+}
+
 .bg {
   animation: slide 3s ease-in-out infinite alternate;
   background-image: linear-gradient(-60deg, #66cc33 50%, #0099ff 50%);
